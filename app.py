@@ -1,7 +1,7 @@
 import streamlit as st
 import cohere
 import numpy as np
-from scipy.io.wavfile import write
+
 
 co = cohere.Client('2N3UcA7d1YNSBfns9i1F6hyoDJKMx3unPamYmDn0')
 import numpy as np
