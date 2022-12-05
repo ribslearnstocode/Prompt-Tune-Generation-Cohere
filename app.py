@@ -155,7 +155,7 @@ def cohere_generate(genre):
   print(final_song)
   return final_song
 
-
+global generated_notes
 generated_notes=cohere_generate(stored_string)
 
 
